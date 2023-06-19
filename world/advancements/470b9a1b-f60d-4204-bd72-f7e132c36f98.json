@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2023-06-19 15:33:08 +0200"
@@ -56,6 +62,12 @@
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2023-06-17 17:32:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2023-06-19 21:36:29 +0200"
     },
     "done": true
   },
@@ -107,6 +119,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2023-06-19 22:04:50 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2023-06-17 15:31:46 +0200"
@@ -152,6 +170,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2023-06-19 15:33:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2023-06-19 21:36:29 +0200"
     },
     "done": true
   },
@@ -450,9 +474,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2023-06-19 22:04:50 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2023-06-19 16:28:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2023-06-19 22:04:50 +0200"
     },
     "done": true
   },
@@ -498,6 +534,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2023-06-19 16:28:28 +0200"
@@ -519,6 +561,12 @@
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-06-17 13:31:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
     },
     "done": true
   },
@@ -732,6 +780,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-06-17 17:49:01 +0200"
@@ -771,6 +825,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2023-06-19 16:28:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2023-06-19 22:04:50 +0200"
     },
     "done": true
   },
@@ -837,11 +897,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2023-06-17 15:35:01 +0200",
+      "minecraft:zoglin": "2023-06-19 22:04:29 +0200",
+      "minecraft:hoglin": "2023-06-19 22:04:50 +0200",
       "minecraft:spider": "2023-06-17 15:43:05 +0200",
       "minecraft:creeper": "2023-06-17 15:08:57 +0200",
       "minecraft:phantom": "2023-06-19 17:49:57 +0200",
       "minecraft:zombified_piglin": "2023-06-17 15:30:36 +0200",
       "minecraft:witch": "2023-06-17 17:42:54 +0200",
+      "minecraft:enderman": "2023-06-19 22:13:44 +0200",
       "minecraft:zombie": "2023-06-17 15:43:35 +0200"
     },
     "done": false
@@ -903,6 +966,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_chainmail_helmet": "2023-06-19 15:34:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2023-06-19 21:36:29 +0200"
     },
     "done": true
   },
@@ -1086,6 +1155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2023-06-17 15:43:48 +0200"
@@ -1167,6 +1242,12 @@
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2023-06-17 16:06:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
     },
     "done": true
   },
@@ -1263,6 +1344,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2023-06-19 16:28:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
     },
     "done": true
   },
@@ -1398,6 +1485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2023-06-19 22:04:50 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2023-06-17 16:16:22 +0200"
@@ -1442,7 +1535,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2023-06-17 01:35:51 +0200"
+      "minecraft:beach": "2023-06-17 01:35:51 +0200",
+      "minecraft:plains": "2023-06-19 23:08:20 +0200"
     },
     "done": false
   },
@@ -1518,6 +1612,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2023-06-19 22:04:50 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2023-06-17 14:43:54 +0200"
@@ -1578,6 +1678,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2023-06-19 21:36:29 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2023-06-19 15:36:09 +0200"
@@ -1605,6 +1711,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2023-06-19 15:33:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
     },
     "done": true
   },
@@ -1695,6 +1807,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2023-06-19 15:36:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2023-06-19 22:26:42 +0200"
     },
     "done": true
   },

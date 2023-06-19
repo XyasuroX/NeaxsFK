@@ -2,21 +2,15 @@ last_version: 2.22.6
 FkPI:
   RulesManager:
     Rules:
+      HealthBelowName:
+        value: false
       NetherCap:
         value: 3
       PlaceBlockInCave:
         value: true
         MinimumBlocs: 3
-      PvpCap:
-        value: 1
-      BucketAssault:
-        value: false
-      EternalDay:
-        value: false
-      CaptureRate:
-        value: 50
-      EnderpearlAssault:
-        value: false
+      DayDuration:
+        value: 24000
       AllowedBlocks:
         value:
         - TORCH
@@ -42,27 +36,25 @@ FkPI:
         - REDSTONE_WALL_TORCH
         - CRIMSON_WALL_SIGN
         - WARPED_WALL_SIGN
+      DeepPause:
+        value: false
       VerticalLimit:
         value: 20
-      ChargedCreepers:
-        value: 15050001
-      TntCap:
-        value: 1
       DisabledPotions:
         '0':
-          Type: INVISIBILITY
+          Type: TURTLE_MASTER
           Extended: true
           Upgraded: false
         '1':
-          Type: TURTLE_MASTER
+          Type: STRENGTH
           Extended: true
           Upgraded: false
         '2':
-          Type: SPEED
+          Type: TURTLE_MASTER
           Extended: false
           Upgraded: true
         '3':
-          Type: TURTLE_MASTER
+          Type: POISON
           Extended: false
           Upgraded: true
         '4':
@@ -70,59 +62,67 @@ FkPI:
           Extended: false
           Upgraded: false
         '5':
-          Type: JUMP
+          Type: INSTANT_HEAL
           Extended: false
           Upgraded: true
         '6':
-          Type: INSTANT_DAMAGE
+          Type: REGEN
           Extended: false
           Upgraded: true
         '7':
-          Type: STRENGTH
-          Extended: false
-          Upgraded: true
+          Type: INVISIBILITY
+          Extended: true
+          Upgraded: false
         '8':
           Type: SLOWNESS
           Extended: false
           Upgraded: true
         '9':
-          Type: INSTANT_HEAL
+          Type: SPEED
           Extended: false
           Upgraded: true
         '10':
-          Type: POISON
+          Type: JUMP
           Extended: false
           Upgraded: true
         '11':
-          Type: REGEN
+          Type: STRENGTH
           Extended: false
           Upgraded: true
         '12':
-          Type: STRENGTH
-          Extended: true
-          Upgraded: false
-      GlobalChatPrefix:
-        value: '!'
-      RespawnAtHome:
-        value: true
-      HealthBelowName:
+          Type: INSTANT_DAMAGE
+          Extended: false
+          Upgraded: true
+      EternalDay:
         value: false
       DeathLimit:
         value: 0
+      BucketAssault:
+        value: false
+      EndCap:
+        value: 455
+      DoPauseAfterDay:
+        value: false
       FriendlyFire:
         value: true
       TntJump:
         value: true
-      EndCap:
-        value: 455
-      DeepPause:
+      EnderpearlAssault:
         value: false
+      RespawnAtHome:
+        value: true
+      TntCap:
+        value: 5
+      PvpCap:
+        value: 3
+      ChargedCreepers:
+        value: 15050001
+      GlobalChatPrefix:
+        value: '!'
       ChestLimit:
         value: 4
-      DayDuration:
-        value: 24000
-      DoPauseAfterDay:
-        value: false
+      CaptureRate:
+        value: 50
   TeamManager:
     Rose:
       Members:
@@ -188,7 +188,7 @@ FkPI:
         State: LOCKED
         Time: 35
         Day: 3
-        Name: Loot_chest
+        Name: Blue_chest
       -179-173-67:
         Loc:
           World: world
@@ -198,7 +198,7 @@ FkPI:
         State: LOCKED
         Time: 60
         Day: 6
-        Name: Loot_chest
+        Name: Black_chest
       170-175-29:
         Loc:
           World: world
@@ -208,57 +208,7 @@ FkPI:
         State: LOCKED
         Time: 60
         Day: 6
-        Name: Loot_chest
-      61-122-78:
-        Loc:
-          World: world
-          x: 61
-          y: 122
-          z: 78
-        State: LOCKED
-        Time: 25
-        Day: 1
-        Name: Loot_chest
-      74-120--43:
-        Loc:
-          World: world
-          x: 74
-          y: 120
-          z: -43
-        State: LOCKED
-        Time: 25
-        Day: 1
-        Name: Loot_chest
-      25-173-167:
-        Loc:
-          World: world
-          x: 25
-          y: 173
-          z: 167
-        State: LOCKED
-        Time: 35
-        Day: 3
-        Name: Loot_chest
-      17-173-175:
-        Loc:
-          World: world
-          x: 17
-          y: 173
-          z: 175
-        State: LOCKED
-        Time: 60
-        Day: 6
-        Name: Loot_chest
-      -31-120-55:
-        Loc:
-          World: world
-          x: -31
-          y: 120
-          z: 55
-        State: LOCKED
-        Time: 25
-        Day: 1
-        Name: Loot_chest
+        Name: Black_chest
       -2-116-17:
         Loc:
           World: world
@@ -268,17 +218,7 @@ FkPI:
         State: LOCKED
         Time: 40
         Day: 4
-        Name: Loot_chest
-      -54-122--45:
-        Loc:
-          World: world
-          x: -54
-          y: 122
-          z: -45
-        State: LOCKED
-        Time: 25
-        Day: 1
-        Name: Loot_chest
+        Name: Yellow_chest
       46-116-20:
         Loc:
           World: world
@@ -288,7 +228,27 @@ FkPI:
         State: LOCKED
         Time: 40
         Day: 4
-        Name: Loot_chest
+        Name: Yellow_chest
+      25-173-167:
+        Loc:
+          World: world
+          x: 25
+          y: 173
+          z: 167
+        State: LOCKED
+        Time: 35
+        Day: 3
+        Name: Blue_chest
+      17-173-175:
+        Loc:
+          World: world
+          x: 17
+          y: 173
+          z: 175
+        State: LOCKED
+        Time: 60
+        Day: 6
+        Name: Black_chest
       4-176--152:
         Loc:
           World: world
@@ -298,17 +258,7 @@ FkPI:
         State: LOCKED
         Time: 35
         Day: 3
-        Name: Loot_chest
-      12-176--160:
-        Loc:
-          World: world
-          x: 12
-          y: 176
-          z: -160
-        State: LOCKED
-        Time: 60
-        Day: 6
-        Name: Loot_chest
+        Name: Blue_chest
       162-175-21:
         Loc:
           World: world
@@ -318,7 +268,17 @@ FkPI:
         State: LOCKED
         Time: 35
         Day: 3
-        Name: Loot_chest
+        Name: Blue_chest
+      12-176--160:
+        Loc:
+          World: world
+          x: 12
+          y: 176
+          z: -160
+        State: LOCKED
+        Time: 60
+        Day: 6
+        Name: Black_chest
   ChestsRoomsManager:
     CaptureTime: 60
     Offset: 2
