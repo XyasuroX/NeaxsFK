@@ -1,0 +1,354 @@
+last_version: 2.22.6
+FkPI:
+  RulesManager:
+    Rules:
+      NetherCap:
+        value: 3
+      PlaceBlockInCave:
+        value: true
+        MinimumBlocs: 3
+      PvpCap:
+        value: 1
+      BucketAssault:
+        value: false
+      EternalDay:
+        value: false
+      CaptureRate:
+        value: 50
+      EnderpearlAssault:
+        value: false
+      AllowedBlocks:
+        value:
+        - TORCH
+        - REDSTONE_TORCH
+        - OAK_SIGN
+        - SPRUCE_SIGN
+        - BIRCH_SIGN
+        - JUNGLE_SIGN
+        - ACACIA_SIGN
+        - DARK_OAK_SIGN
+        - MANGROVE_SIGN
+        - CRIMSON_SIGN
+        - WARPED_SIGN
+        - WALL_TORCH
+        - FIRE
+        - OAK_WALL_SIGN
+        - SPRUCE_WALL_SIGN
+        - BIRCH_WALL_SIGN
+        - ACACIA_WALL_SIGN
+        - JUNGLE_WALL_SIGN
+        - DARK_OAK_WALL_SIGN
+        - MANGROVE_WALL_SIGN
+        - REDSTONE_WALL_TORCH
+        - CRIMSON_WALL_SIGN
+        - WARPED_WALL_SIGN
+      VerticalLimit:
+        value: 20
+      ChargedCreepers:
+        value: 15050001
+      TntCap:
+        value: 1
+      DisabledPotions:
+        '0':
+          Type: INVISIBILITY
+          Extended: true
+          Upgraded: false
+        '1':
+          Type: TURTLE_MASTER
+          Extended: true
+          Upgraded: false
+        '2':
+          Type: SPEED
+          Extended: false
+          Upgraded: true
+        '3':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: true
+        '4':
+          Type: TURTLE_MASTER
+          Extended: false
+          Upgraded: false
+        '5':
+          Type: JUMP
+          Extended: false
+          Upgraded: true
+        '6':
+          Type: INSTANT_DAMAGE
+          Extended: false
+          Upgraded: true
+        '7':
+          Type: STRENGTH
+          Extended: false
+          Upgraded: true
+        '8':
+          Type: SLOWNESS
+          Extended: false
+          Upgraded: true
+        '9':
+          Type: INSTANT_HEAL
+          Extended: false
+          Upgraded: true
+        '10':
+          Type: POISON
+          Extended: false
+          Upgraded: true
+        '11':
+          Type: REGEN
+          Extended: false
+          Upgraded: true
+        '12':
+          Type: STRENGTH
+          Extended: true
+          Upgraded: false
+      GlobalChatPrefix:
+        value: '!'
+      RespawnAtHome:
+        value: true
+      HealthBelowName:
+        value: false
+      DeathLimit:
+        value: 0
+      FriendlyFire:
+        value: true
+      TntJump:
+        value: true
+      EndCap:
+        value: 455
+      DeepPause:
+        value: false
+      ChestLimit:
+        value: 4
+      DayDuration:
+        value: 24000
+      DoPauseAfterDay:
+        value: false
+  TeamManager:
+    Rose:
+      Members:
+      - Seass_
+      Color: '#ff55ff'
+      Base:
+        Center:
+          World: world
+          X: -141
+          Y: 127
+          Z: 182
+        Material: BLUE_WOOL
+        Radius: 15
+        ChestsRoom: {}
+    Bleu:
+      Members:
+      - Yasu_ro
+      Color: '#5555ff'
+      Base:
+        Center:
+          World: world
+          X: -164
+          Y: 120
+          Z: -96
+        Material: COBBLESTONE
+        Radius: 15
+        ChestsRoom: {}
+    Rouge:
+      Members: []
+      Color: '#ff5555'
+      Base:
+        Center:
+          World: world
+          X: 173
+          Y: 127
+          Z: 186
+        Material: COBBLESTONE
+        Radius: 15
+        ChestsRoom: {}
+    Vert:
+      Members:
+      - Ptit_Biscuit38
+      Color: '#00aa00'
+      Base:
+        Center:
+          World: world
+          X: 181
+          Y: 124
+          Z: -133
+        Material: COBBLESTONE
+        Radius: 15
+        ChestsRoom: {}
+    nametag-integration:
+      use-main-scoreboard: true
+  LockedChestsManager:
+    LockedChests:
+      -187-173-75:
+        Loc:
+          World: world
+          x: -187
+          y: 173
+          z: 75
+        State: LOCKED
+        Time: 35
+        Day: 3
+        Name: Loot_chest
+      -179-173-67:
+        Loc:
+          World: world
+          x: -179
+          y: 173
+          z: 67
+        State: LOCKED
+        Time: 60
+        Day: 6
+        Name: Loot_chest
+      170-175-29:
+        Loc:
+          World: world
+          x: 170
+          y: 175
+          z: 29
+        State: LOCKED
+        Time: 60
+        Day: 6
+        Name: Loot_chest
+      61-122-78:
+        Loc:
+          World: world
+          x: 61
+          y: 122
+          z: 78
+        State: LOCKED
+        Time: 25
+        Day: 1
+        Name: Loot_chest
+      74-120--43:
+        Loc:
+          World: world
+          x: 74
+          y: 120
+          z: -43
+        State: LOCKED
+        Time: 25
+        Day: 1
+        Name: Loot_chest
+      25-173-167:
+        Loc:
+          World: world
+          x: 25
+          y: 173
+          z: 167
+        State: LOCKED
+        Time: 35
+        Day: 3
+        Name: Loot_chest
+      17-173-175:
+        Loc:
+          World: world
+          x: 17
+          y: 173
+          z: 175
+        State: LOCKED
+        Time: 60
+        Day: 6
+        Name: Loot_chest
+      -31-120-55:
+        Loc:
+          World: world
+          x: -31
+          y: 120
+          z: 55
+        State: LOCKED
+        Time: 25
+        Day: 1
+        Name: Loot_chest
+      -2-116-17:
+        Loc:
+          World: world
+          x: -2
+          y: 116
+          z: 17
+        State: LOCKED
+        Time: 40
+        Day: 4
+        Name: Loot_chest
+      -54-122--45:
+        Loc:
+          World: world
+          x: -54
+          y: 122
+          z: -45
+        State: LOCKED
+        Time: 25
+        Day: 1
+        Name: Loot_chest
+      46-116-20:
+        Loc:
+          World: world
+          x: 46
+          y: 116
+          z: 20
+        State: LOCKED
+        Time: 40
+        Day: 4
+        Name: Loot_chest
+      4-176--152:
+        Loc:
+          World: world
+          x: 4
+          y: 176
+          z: -152
+        State: LOCKED
+        Time: 35
+        Day: 3
+        Name: Loot_chest
+      12-176--160:
+        Loc:
+          World: world
+          x: 12
+          y: 176
+          z: -160
+        State: LOCKED
+        Time: 60
+        Day: 6
+        Name: Loot_chest
+      162-175-21:
+        Loc:
+          World: world
+          x: 162
+          y: 175
+          z: 21
+        State: LOCKED
+        Time: 35
+        Day: 3
+        Name: Loot_chest
+  ChestsRoomsManager:
+    CaptureTime: 60
+    Offset: 2
+    Enabled: true
+Game:
+  State: BEFORE_STARTING
+  Day: 0
+  Time: 23990
+PlayerManager:
+  Players:
+    Ptit_Biscuit38:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Y4suro_:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Yasu_ro:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: false
+    Seass_:
+      Kills: 0
+      Deaths: 0
+      KnowsSbEdit: true
+StarterInventoryManager:
+  inventory:
+    '8':
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: BREAD
+      amount: 8

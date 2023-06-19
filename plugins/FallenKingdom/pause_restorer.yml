@@ -1,0 +1,1184 @@
+PauseRestorer:
+  '1':
+    Yasu_ro:
+      player: Yasu_ro
+      health: 10.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -5.300000011920929
+        y: 119.0
+        z: -204.31053679073776
+        yaw: -84.60085
+        pitch: 16.200304
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 2
+        '9':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SUGAR
+          amount: 3
+    Y4suro_:
+      player: Y4suro_
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: CREATIVE
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 166.1411469616612
+        y: 127.0
+        z: 180.66065306537263
+        yaw: 163.32245
+        pitch: -2.1891193
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 3
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 4
+        '5':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: RED_WOOL
+        '6':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+    Ptit_Biscuit38:
+      player: Ptit_Biscuit38
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 160.9138758702369
+        y: 127.0
+        z: 183.38086593649143
+        yaw: 2.603363
+        pitch: -1.4945117
+      effects:
+        FIRE_RESISTANCE:
+          amplifier: 0
+          duration: 4048
+        DAMAGE_RESISTANCE:
+          amplifier: 0
+          duration: 4048
+        ABSORPTION:
+          amplifier: 0
+          duration: 448
+      inv:
+        armor:
+          helmet:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_HELMET
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 117
+          chestplate:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 115
+          leggings:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_LEGGINGS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 111
+          boots:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 115
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              FIRE_ASPECT: 2
+              DAMAGE_ALL: 5
+              DURABILITY: 3
+            Damage: 15
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 1
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ENCHANTED_GOLDEN_APPLE
+          amount: 53
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 62
+        '8':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 1000
+            Damage: 15
+        '9':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 70
+        '11':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 70
+        '12':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 24
+        '13':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SPRUCE_WOOD
+        '14':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 12
+        '16':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: TRAPPED_CHEST
+          amount: 62
+        '17':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SUGAR_CANE
+          amount: 3
+        '18':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: CHEST
+          amount: 62
+        '20':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: STRING
+          amount: 2
+        '21':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BREAD
+          amount: 24
+        '22':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 4
+        '23':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+          amount: 5
+        '24':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 21
+    Seass_:
+      player: Seass_
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 165.52981822323315
+        y: 127.0
+        z: 189.2632526211698
+        yaw: 160.39084
+        pitch: 2.1695025
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 2
+  '2':
+    Y4suro_:
+      player: Y4suro_
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -157.26617582747357
+        y: 120.0
+        z: -90.32691047095653
+        yaw: 173.9473
+        pitch: 16.3795
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 3
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+        '5':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: RED_WOOL
+    Ptit_Biscuit38:
+      player: Ptit_Biscuit38
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -76.30000001192093
+        y: 119.0
+        z: -43.30000001192093
+        yaw: -81.04862
+        pitch: 13.767702
+      effects:
+        FIRE_RESISTANCE:
+          amplifier: 0
+          duration: 1965
+        DAMAGE_RESISTANCE:
+          amplifier: 0
+          duration: 1965
+        SPEED:
+          amplifier: 255
+          duration: 1998345
+      inv:
+        armor:
+          helmet:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_HELMET
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 121
+          chestplate:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 119
+          leggings:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_LEGGINGS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 113
+          boots:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3105
+            type: DIAMOND_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 4
+                DURABILITY: 3
+              Damage: 117
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              FIRE_ASPECT: 2
+              DAMAGE_ALL: 5
+              DURABILITY: 3
+            Damage: 15
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 2
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ENCHANTED_GOLDEN_APPLE
+          amount: 53
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 62
+        '8':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 1000
+            Damage: 15
+        '9':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 70
+        '11':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 70
+        '12':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 24
+        '13':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SPRUCE_WOOD
+        '14':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 12
+        '16':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: TRAPPED_CHEST
+          amount: 62
+        '17':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SUGAR_CANE
+          amount: 3
+        '18':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: CHEST
+          amount: 62
+        '20':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: STRING
+          amount: 2
+        '21':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BREAD
+          amount: 24
+        '22':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 4
+        '23':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+          amount: 7
+        '24':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 21
+    Seass_:
+      player: Seass_
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 182.03164721619032
+        y: 124.0
+        z: -133.51009325207568
+        yaw: 91.20734
+        pitch: 3.2742817
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 2
+    Yasu_ro:
+      player: Yasu_ro
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -158.01039669398133
+        y: 120.0
+        z: -95.61773768670598
+        yaw: -95.10245
+        pitch: 25.499895
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 1
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 64
+  '3':
+    Ptit_Biscuit38:
+      player: Ptit_Biscuit38
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -94.29009691005416
+        y: 120.25220334025373
+        z: -60.34174819452
+        yaw: -57.278717
+        pitch: 19.294369
+      effects:
+        FIRE_RESISTANCE:
+          amplifier: 0
+          duration: 5916
+        DAMAGE_RESISTANCE:
+          amplifier: 0
+          duration: 5916
+        REGENERATION:
+          amplifier: 4
+          duration: 516
+        SPEED:
+          amplifier: 150
+          duration: 1996555
+        ABSORPTION:
+          amplifier: 0
+          duration: 2316
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              FIRE_ASPECT: 2
+              DAMAGE_ALL: 5
+              DURABILITY: 3
+            Damage: 15
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 16
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ENCHANTED_GOLDEN_APPLE
+          amount: 50
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 59
+        '4':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: GUNPOWDER
+        '8':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 1000
+            Damage: 15
+        '9':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 70
+        '10':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+            Damage: 115
+        '11':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 70
+        '12':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 24
+        '13':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SPRUCE_WOOD
+        '14':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 12
+        '15':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+            Damage: 124
+        '16':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: TRAPPED_CHEST
+          amount: 62
+        '17':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SUGAR_CANE
+          amount: 3
+        '18':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: CHEST
+          amount: 62
+        '19':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+            Damage: 120
+        '20':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: STRING
+          amount: 2
+        '21':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BREAD
+          amount: 24
+        '22':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 4
+        '23':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+          amount: 7
+        '24':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 21
+        '25':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+            Damage: 121
+    Seass_:
+      player: Seass_
+      health: 14.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 180.15648230897594
+        y: 124.0
+        z: -133.85338344625006
+        yaw: -31.04483
+        pitch: 1.9774468
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 2
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 1
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 5
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+        '4':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 3
+    Yasu_ro:
+      player: Yasu_ro
+      health: 18.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -140.92964881837972
+        y: 120.0
+        z: -90.45136059984644
+        yaw: -70.65744
+        pitch: 5.999938
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 19
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 47
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: RED_WOOL
+    Y4suro_:
+      player: Y4suro_
+      health: 7.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -142.75560739784112
+        y: 120.0
+        z: -90.38361830312729
+        yaw: -91.46509
+        pitch: 14.030479
+      effects: {}
+  '4':
+    Ptit_Biscuit38:
+      player: Ptit_Biscuit38
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -155.80554003006594
+        y: 120.0
+        z: -94.76249998807907
+        yaw: -169.43367
+        pitch: 46.624233
+      effects:
+        FIRE_RESISTANCE:
+          amplifier: 0
+          duration: 3839
+        DAMAGE_RESISTANCE:
+          amplifier: 0
+          duration: 3839
+        SPEED:
+          amplifier: 150
+          duration: 1994478
+        ABSORPTION:
+          amplifier: 0
+          duration: 239
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              FIRE_ASPECT: 2
+              DAMAGE_ALL: 5
+              DURABILITY: 3
+            Damage: 15
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 20
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ENCHANTED_GOLDEN_APPLE
+          amount: 50
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 56
+        '8':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 1000
+            Damage: 15
+        '9':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+        '10':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+            Damage: 115
+        '13':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SPRUCE_WOOD
+        '14':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+        '16':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: TRAPPED_CHEST
+          amount: 62
+        '17':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: SUGAR_CANE
+          amount: 3
+        '19':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+            Damage: 120
+        '20':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: STRING
+          amount: 2
+        '21':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BREAD
+          amount: 24
+        '22':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 4
+        '24':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 21
+        '25':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+            Damage: 121
+        '31':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: GUNPOWDER
+    Seass_:
+      player: Seass_
+      health: 14.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 181.77095589835722
+        y: 124.0
+        z: -134.43437938629708
+        yaw: 6.9268494
+        pitch: -3.5764985
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ROTTEN_FLESH
+          amount: 2
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: NETHERITE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 1
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 5
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BONE
+        '4':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 3
+    Yasu_ro:
+      player: Yasu_ro
+      health: 16.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -153.88889562261062
+        y: 120.0
+        z: -80.16444344490408
+        yaw: -93.60846
+        pitch: 3.2999668
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 33
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 35
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: RED_WOOL
+    Y4suro_:
+      player: Y4suro_
+      health: 18.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: -146.9157461597044
+        y: 120.0
+        z: -84.28403150039972
+        yaw: -102.33057
+        pitch: 4.7141066
+      effects:
+        SPEED:
+          amplifier: 255
+          duration: 2242589
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: ARROW
+          amount: 3
+  '5':
+    Seass_:
+      player: Seass_
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 185.85671894810864
+        y: 124.0
+        z: -129.76249998807907
+        yaw: 82.52896
+        pitch: 21.003633
+      effects: {}
+      inv:
+        '0':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: CHEST
+          amount: 60
+        '1':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: GREEN_TERRACOTTA
+        '2':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            Damage: 3
+        '3':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: DIRT
+        '4':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: BLUE_WOOL
+        '5':
+          ==: org.bukkit.inventory.ItemStack
+          v: 3105
+          type: GRASS_BLOCK
+          amount: 2
+    Yasu_ro:
+      player: Yasu_ro
+      health: 20.0
+      food: 0
+      saturation: 0.0
+      xp: 0.0
+      oxygen: 300
+      gm: SURVIVAL
+      loc:
+        world: b54be0cb-125b-4d4b-92a2-0116c62753e3
+        x: 144.5678554185182
+        y: 137.0
+        z: -42.183529034795356
+        yaw: -91.649506
+        pitch: 55.911285
+      effects: {}

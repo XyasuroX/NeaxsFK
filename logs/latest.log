@@ -1,0 +1,71 @@
+[20:50:15] [ServerMain/INFO]: Building unoptimized datafixer
+[20:50:18] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:50:24] [ServerMain/INFO]: Loaded 7 recipes
+[20:50:27] [Server thread/INFO]: Starting minecraft server version 1.19
+[20:50:27] [Server thread/INFO]: Loading properties
+[20:50:28] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[20:50:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:29] [Server thread/INFO]: Default game type: ADVENTURE
+[20:50:29] [Server thread/INFO]: Generating keypair
+[20:50:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:50:29] [Server thread/INFO]: Using default channel type
+[20:50:29] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[20:50:29] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:50:30] [Server thread/ERROR]: Could not load 'plugins\Corpse.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'Corpse'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:287) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:421) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1122) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[20:50:31] [Server thread/INFO]: [FlyPlus] Loading FlyPlus v2.3
+[20:50:31] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.15+6463-5ca4dff
+[20:50:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7bafce18]
+[20:50:32] [Server thread/INFO]: [OldCombatMechanics] Loading OldCombatMechanics v1.12.2
+[20:50:32] [Server thread/INFO]: [FK] Loading FallenKingdom v2.22.6
+[20:50:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[20:50:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:50:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:50:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[20:50:35] [Server thread/INFO]: Preparing level "world"
+[20:50:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:50:37] [Server thread/INFO]: Time elapsed: 462 ms
+[20:50:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:50:38] [Server thread/INFO]: Time elapsed: 160 ms
+[20:50:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:50:38] [Server thread/INFO]: Time elapsed: 136 ms
+[20:50:38] [Server thread/INFO]: [FlyPlus] Enabling FlyPlus v2.3
+[20:50:38] [Server thread/INFO]: [FlyPlus] Enabled!
+[20:50:38] [Server thread/INFO]: [OldCombatMechanics] Enabling OldCombatMechanics v1.12.2
+[20:50:38] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v1.12.2 has been enabled
+[20:50:38] [Server thread/INFO]: [FK] Enabling FallenKingdom v2.22.6
+[20:50:39] [Server thread/INFO]: [FK] Enable asynchronous tab completion...
+[20:50:41] [Server thread/INFO]: Starting remote control listener
+[20:50:42] [Server thread/WARN]: No rcon password set in server.properties, rcon disabled!
+[20:50:42] [Server thread/INFO]: Running delayed init tasks
+[20:50:42] [Server thread/INFO]: Done (14.394s)! For help, type "help"
+[20:50:42] [Server thread/INFO]: Timings Reset
+[20:51:06] [Server thread/INFO]: Stopping the server
+[20:51:06] [Server thread/INFO]: Stopping server
+[20:51:06] [Server thread/INFO]: [FK] Disabling FallenKingdom v2.22.6
+[20:51:06] [Server thread/INFO]: [OldCombatMechanics] Disabling OldCombatMechanics v1.12.2
+[20:51:06] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v1.12.2 has been disabled
+[20:51:06] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[20:51:06] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:51:06] [Server thread/INFO]: [FlyPlus] Disabling FlyPlus v2.3
+[20:51:06] [Server thread/INFO]: [FlyPlus] Disabled!
+[20:51:06] [Server thread/INFO]: Saving players
+[20:51:06] [Server thread/INFO]: Saving worlds
+[20:51:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:51:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:51:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:51:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:51:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:51:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:51:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:51:12] [Server thread/INFO]: Flushing Chunk IO
+[20:51:12] [Server thread/INFO]: Closing Thread Pool
+[20:51:12] [Server thread/INFO]: Closing Server
